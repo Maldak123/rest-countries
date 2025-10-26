@@ -17,6 +17,8 @@ const DarkButton = () => {
   return (
     <div>
       <button
+        aria-label="Change Theme"
+        type="button"
         onClick={() => setTheme(theme())}
         className="flex items-center gap-2 text-sm cursor-pointer"
       >

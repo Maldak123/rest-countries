@@ -125,6 +125,8 @@ const CountryPage = () => {
   return (
     <div className="p-8 lg:px-18">
       <button
+        aria-label="Back"
+        type="button"
         className="flex w-fit cursor-pointer items-center gap-2 px-8 py-1 shadow-[0_0_10px_rgba(0,0,0,.25)]"
         onClick={() => navigate("/")}
       >

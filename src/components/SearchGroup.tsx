@@ -29,6 +29,7 @@ const SearchGroup = ({
         <Search size={20} />
         <input
           type="text"
+          role="search"
           placeholder="Search for a country..."
           value={searchValue}
           onChange={(e) => {
@@ -42,7 +43,6 @@ const SearchGroup = ({
           <SelectTrigger className="border-0 px-10 py-7 dark:text-white">
             <SelectValue
               placeholder="Filter by Region"
-              aria-label="Filter Regions"
             />
           </SelectTrigger>
           <SelectContent className="shadow-none dark:bg-[hsl(209,23%,22%)]">
