@@ -1,6 +1,6 @@
 import { Moon } from "lucide-react";
 import { useTheme } from "@/components/theme-provider";
-import React, { useState } from "react";
+import { useState } from "react";
 
 const DarkButton = () => {
   const [actualTheme, setActualTheme] = useState<"light" | "dark">(

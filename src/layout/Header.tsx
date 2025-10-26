@@ -1,4 +1,3 @@
-import React from "react";
 import DarkButton from "@/components/DarkButton";
 import { useNavigate } from "react-router-dom";
 
